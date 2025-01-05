@@ -13,7 +13,7 @@
     display: flex;
     /* grid-template-columns: 1fr 1fr 1fr 1fr ; */
     width: 100%;
-    border: solid 2px rgb(204, 55, 10);
+    /* border: solid 2px rgb(204, 55, 10); */
     justify-content: center;
     align-items: center;
     gap: 80px;
@@ -21,12 +21,6 @@
 }
 
 
-.projet{
-    width: 300px;
-    height: 400px;
-    border: solid 2px rgb(5, 33, 110);
-    background-color: chartreuse;
-}
 
 
 
@@ -93,11 +87,3 @@
         gap: 20px;
     }
 }
-
-
-@media (max-width: 800px){
-    .projets{
-        gap: 20px;
-    }
-}
-

@@ -1,0 +1,15 @@
+.titre{
+    width: 80vw;
+    margin-top: 50px;
+    height: max-content;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.774);
+}
+
+.contenu_titre{
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 2em;
+    font-weight: 600;
+    width: 100%;
+}
