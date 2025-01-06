@@ -7,7 +7,9 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px
+    border-radius: 10px;
+    color:  rgba(255, 255, 255, 0.774);
+
 }
 
 
@@ -23,8 +25,68 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    text-align: left;
     background-color: rgba(0, 0, 0, 0.267);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    gap: 10px;
+    padding: 10px;
 
+}
+
+.titre-projet{
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.2;
+    color:  rgb(255, 255, 255);
+
+}
+
+.description-projet{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.bas-projet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 5px;
+    
+}
+
+
+.outils{
+   display: flex;
+   gap: 30px;
+}
+
+
+.logo-outils{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.boutton-projet{
+    display: flex;
+    width: 60px;
+    height: 30px;
+    background-color: #01be96;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.boutton-projet:hover{
+    cursor: pointer;
+    background-color: #01be9577;
+    scale: 0.9;
 }

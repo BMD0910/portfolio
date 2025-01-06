@@ -5,7 +5,7 @@ export const PROJETS =[
     {
         id : 1 ,
         name: "iphone-x" ,
-        outils : [ "/asset/img/img-projet/ordi2.jpg" , "/asset/img/img-projet/ordi2.jpg"] ,   
+        outils : [ "/asset/img/img-projet/react.png" , "/asset/img/img-projet/figma.png"] ,   
         image : "/asset/img/img-projet/ordi1.jpg" ,
         description : '',
     },
@@ -13,7 +13,7 @@ export const PROJETS =[
     {
         id : 2 ,
         name: "elitebook" ,
-        outils : [ "/asset/img/img-projet/ordi2.jpg" , "/asset/img/img-projet/ordi2.jpg"] ,   
+        outils : [ "/asset/img/img-projet/figma.png" , "/asset/img/img-projet/react.png"] ,   
         image : "/asset/img/img-projet/ordi2.jpg" ,
         description : '',
     },
@@ -21,7 +21,7 @@ export const PROJETS =[
     {
         id : 3 ,
         name: "cle music" ,
-        outils : [ "/asset/img/img-projet/ordi2.jpg" , "/asset/img/img-projet/ordi2.jpg"] ,   
+        outils : [ "/asset/img/img-projet/figma.png" , "/asset/img/img-projet/spring.png"] ,   
         image : "/asset/img/img-projet/ordi3.jpg" ,
         caractere : '',
     },
@@ -29,7 +29,7 @@ export const PROJETS =[
     {
         id : 4 ,
         name: "RJ-45" ,
-        outils : [ "/asset/img/img-projet/ordi2.jpg" , "/asset/img/img-projet/ordi2.jpg"] ,   
+        outils : [ "/asset/img/img-projet/figma.png" , "/asset/img/img-projet/react.png"] ,   
         image : "/asset/img/img-projet/ordi4.jpg" ,
         caractere : '',
     },
@@ -37,7 +37,7 @@ export const PROJETS =[
     {
         id : 5 ,
         name: "A-14" ,
-        outils : [ "/asset/img/img-projet/ordi2.jpg" , "/asset/img/img-projet/ordi2.jpg"] ,   
+        outils : [ "/asset/img/img-projet/spring.png" , "/asset/img/img-projet/react.png"] ,   
         image : "/asset/img/img-projet/ordi1.jpg" ,
         caractere : '',
     },

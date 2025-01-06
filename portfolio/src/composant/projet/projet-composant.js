@@ -33,8 +33,11 @@ const ProjetComposant = (props) => {
                       </span>
                     ))} 
                   </span>
-                  <span></span>
+                  <a href='https://www.youtube.com/' className='boutton-projet'>
+                      Voir +
+                  </a>
                </span>
+              
            </span>
            
         </div>
