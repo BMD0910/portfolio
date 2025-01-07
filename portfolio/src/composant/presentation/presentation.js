@@ -14,7 +14,7 @@ const Presentation = () => {
       };
       
       return (
-        <div className="presentation">
+        <div className="presentation" id='propos'>
             <div className='description-profil'>
                 <span className='nom'>Baye mor Diouf</span>
                 <span className='fontion'>

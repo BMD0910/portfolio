@@ -16,12 +16,9 @@ const ProjetComposant = (props) => {
                 }}>
            </span>
            <span className='contenue-projet'>
-               <span className='titre-projet'>Le titre de notre Projet de classe</span>
+               <span className='titre-projet'>{props.projet.name}</span>
                <span className='description-projet'>
-               Pour ajouter une ombre à une carte 
-               (comme dans le style des slides ou 
-               cartes modernes), vous pouvez utiliser
-                la propriété CSS box-shadow
+                   {props.projet.description}
                </span>
                <span className='bas-projet'>
                   <span className='outils'>
@@ -33,7 +30,7 @@ const ProjetComposant = (props) => {
                       </span>
                     ))} 
                   </span>
-                  <a href='https://www.youtube.com/' className='boutton-projet'>
+                  <a href={props.projet.lien} className='boutton-projet'>
                       Voir +
                   </a>
                </span>

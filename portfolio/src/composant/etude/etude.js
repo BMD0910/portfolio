@@ -9,7 +9,7 @@ import Titre from '../titre/titre';
 const Etude = () => {
       
       return (
-        <div className="blog-etude">
+        <div className="blog-etude" id='etude'>
             <Titre  message='Etude' className='titre1'></Titre>
             <ul className='etudes'>
                 <li className='etude'>

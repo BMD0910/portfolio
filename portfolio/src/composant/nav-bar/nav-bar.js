@@ -29,12 +29,28 @@ const NavBar = () => {
   }, [lastScrollTop]);
 
 
-  const $menu = document.querySelector(".nav");
-  const $menuDrop = document.querySelector(".menu-drop");
-  const $btnmenu = document.querySelector(".btn-menu");
-  const $linea1 = document.querySelector("#linea1");
-  const $linea2 = document.querySelector("#linea2");
-  const $linea3 = document.querySelector("#linea3");
+  // const $menu = document.querySelector(".nav");
+  // const $menuDrop = document.querySelector(".menu-drop");
+  // const $btnmenu = document.querySelector(".btn-menu");
+  // const $linea1 = document.querySelector("#linea1");
+  // const $linea2 = document.querySelector("#linea2");
+  // const $linea3 = document.querySelector("#linea3");
+
+  // $btnmenu.addEventListener("click", () => {
+  //   $linea1.classList.toggle("activelinea1__bars-menu");
+  //   $linea2.classList.toggle("activelinea2__bars-menu");
+  //   $linea3.classList.toggle("activelinea3__bars-menu");
+  //   $menu.classList.toggle("menu-activado");
+  //   $menuDrop.classList.toggle("activa-menu-drop");
+  // });
+
+  // $menuDrop.addEventListener("click", () => {
+  //   $linea1.classList.toggle("activelinea1__bars-menu");
+  //   $linea2.classList.toggle("activelinea2__bars-menu");
+  //   $linea3.classList.toggle("activelinea3__bars-menu");
+  //   $menu.classList.toggle("menu-activado");
+  //   $menuDrop.classList.toggle("activa-menu-drop");
+  // });
 
   
  
@@ -42,44 +58,42 @@ const NavBar = () => {
       return (
         <div className={` navBar  ${showNavbar ? 'show' : 'hide'}`}>
           <header class="header">
-            <h1 id="inicio">Portafolio</h1>
+            <h1 id="inicio">Portfolio</h1>
             <nav class="nav">
               <ul class="ul-nav">
-                <a href="#inicio">
-                  <li class="li-nav">Accueil</li>
+                <a href="#propos">
+                  <li class="li-nav">À propos de moi</li>
                 </a>
 
-                <a href="#proyectos">
-                  <li class="li-nav">Projets</li>
-                </a>
-
-                <a href="#skills">
+                <a href="#competence">
                   <li class="li-nav">Compétences</li>
                 </a>
-                <a href="#estudios">
+
+                <a href="#etude">
                   <li class="li-nav">Études</li>
                 </a>
-                <a href="#sobremi">
+
+                <a href="#projet">
+                  <li class="li-nav">Projets</li>
+                </a>
+                {/* <a href="#sobremi">
                   <li class="li-nav">À propos de moi</li>
                 </a>
 
                 <a href="#contacto">
                   <li class="li-nav">Contact</li>
-                </a>
+                </a> */}
               </ul>
             </nav>
-            <div class="container-bnt-menu">
+            {/* <div class="container-bnt-menu">
               <div class="btn-menu">
                 <span class="linea-menu" id="linea1"></span>
                 <span class="linea-menu" id="linea2"></span>
                 <span class="linea-menu" id="linea3"></span>
               </div>
-            </div>
+            </div> */}
 
 
-            <script>
-              
-            </script>
           </header>
 
         </div>

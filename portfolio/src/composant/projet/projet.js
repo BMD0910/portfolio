@@ -15,7 +15,7 @@ const Projet = () => {
     }, []);
         
     return (
-      <div className="blog-projet">
+      <div className="blog-projet" id='projet'>
           <Titre  message='Projets' className='titre1'></Titre>
 
             <div className='projets'>

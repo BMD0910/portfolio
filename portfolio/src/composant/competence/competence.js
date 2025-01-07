@@ -10,7 +10,7 @@ import Titre from '../titre/titre';
 const Competence = () => {
       
       return (
-        <div className="blog-competence">
+        <div className="blog-competence" id='competence'>
             <Titre  message='Competence' className='titre1'></Titre>
             <span className='Competence'>
               <span className='competence'>
@@ -18,26 +18,26 @@ const Competence = () => {
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Langages de programmation :  </span>
-                        <span className='detail-competence'>Java,#C, PythonCreativity</span>
+                        <span className='detail-competence'> Java , C , Python , Pascal</span>
                     </li>
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Développement Web : </span>
-                        <span className='detail-competence'> HTML, CSS ,JavaScript</span>
+                        <span className='detail-competence'> HTML , CSS , JavaScript</span>
                     </li>
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Administration de bases de données : </span>
-                        <span className='detail-competence'> SQL, MySQL</span>-
+                        <span className='detail-competence'> -- SQL -- : MySQL , MariaDB</span>
                     </li>
                     <li>
                         <span className='point'></span>
-                        <span className='titre-competence'>Administration système : </span>
-                        <span className='detail-competence'> Windows, Linux</span>
+                        <span className='titre-competence'>Administration des systèmes : </span>
+                        <span className='detail-competence'> Windows , Linux</span>
                     </li>
                     <li>
                         <span className='point'></span>  
-                        <span className='titre-competence'>Services réseau</span>
+                        <span className='titre-competence'>Services réseau : DNS , dhcp , ftp , ssh</span>
                         <span className='detail-competence'></span>
                     </li>
                     <li>
@@ -47,7 +47,7 @@ const Competence = () => {
                     </li>
                     <li>
                         <span className='point'></span>
-                        <span className='titre-competence'>Utilisation de l’outil de design Figma</span>
+                        <span className='titre-competence'>Utilisation de l’outil de : Figma</span>
                         <span className='detail-competence'></span>
                     </li>
                     
