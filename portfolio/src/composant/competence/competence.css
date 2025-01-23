@@ -60,7 +60,7 @@
  @media (max-width: 1200px){
     .competence ul li{
         line-height: 2.5;
-        font-size: 1.1em;  
+        font-size: 1.2em;  
     }
  }
 
@@ -71,7 +71,7 @@
  }
 
 
- @media (max-width: 975px){
+ @media (max-width: 1025px){
     .competence ul li{
         line-height: 2.5;
         font-size: 1.3em;  
@@ -90,18 +90,26 @@
  @media (max-width: 750px){
     .competence ul li{
         line-height: 1.5;
-        font-size: 1.1em;  
+        font-size: 1.2em;  
         margin-top: 20px;
     }
  }
 
  @media (max-width: 650px){
     .competence ul li{
-        font-size: 1em;  
+        font-size: 1.2em;  
+    }
+
+    .competence ul {
+      padding-left: 0;  
+    }
+
+    .Competence{
+      margin-top: 0px;
     }
  }
 
- @media (max-width: 600px){
+ /* @media (max-width: 600px){
 
 
     .Competence{
@@ -116,13 +124,13 @@
         padding-left: 0;  
     }
  }
+*/ 
 
-
-@media (max-width: 500px){
+ @media (max-width: 550px){
 
   .competence ul li .point{
     display: none;
    
   }
 
-}
+} 

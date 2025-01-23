@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './presentation.css';
 import { Facebook, X , LinkedIn} from '@mui/icons-material';
-import profil from './../../../src/asset/img/profil1.jpg' ;
+import profil from './../../../src/asset/img/profil2.jpeg' ;
 import cv from './../../../src/asset/mon_cv.pdf'
 
 
@@ -21,12 +21,14 @@ const Presentation = () => {
                   Développeur full-stack 
                 </span>
                 <span className='detail'>
-                     Con más de 1 año de experiencia en la creación
-                     de experiencias web atractivas y funcionales. 
-                     Experto en tecnologías front-end, incluyendo HTML5,
-                     CSS3, JavaScript y frameworks como React, Next.js, Astro.
-                     Capaz de traducir diseños creativos en código interactivo 
-                     y optimizar la velocidad y el rendimiento del sitio web.
+                  Développeur full-stack titulaire d'une licence en ingénierie informatique,
+                  je dispose de compétences variées en programmation, technologies web,
+                  bases de données, administration système et réseau. Mon expérience inclut
+                  également l'utilisation de frameworks modernes et d'outils de conception, 
+                  me permettant de développer des solutions efficaces et adaptées à divers 
+                  besoins.
+                  <h5>Téléphone : 77 104 42 13</h5>
+                  <h5>Email : bmd09102000@gmail.com</h5>
                 </span>
                 <span className='btn-description'>
                     <span className='btn-description1' onClick={handleClick}>Curriculum vitae</span>

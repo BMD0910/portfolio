@@ -11,24 +11,24 @@ const Competence = () => {
       
       return (
         <div className="blog-competence" id='competence'>
-            <Titre  message='Competence' className='titre1'></Titre>
+            <Titre  message='Compétence' className='titre1'></Titre>
             <span className='Competence'>
               <span className='competence'>
                   <ul>
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Langages de programmation :  </span>
-                        <span className='detail-competence'> Java , C , Python , Pascal</span>
+                        <span className='detail-competence'> Java , C , Python , Dart </span>
                     </li>
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Développement Web : </span>
-                        <span className='detail-competence'> HTML , CSS , JavaScript</span>
+                        <span className='detail-competence'> HTML , CSS , JavaScript , scss</span>
                     </li>
                     <li>
                         <span className='point'></span>
                         <span className='titre-competence'>Administration de bases de données : </span>
-                        <span className='detail-competence'> -- SQL -- : MySQL , MariaDB</span>
+                        <span className='detail-competence'> SQL ( MySQL , MariaDB )</span>
                     </li>
                     <li>
                         <span className='point'></span>
@@ -47,7 +47,7 @@ const Competence = () => {
                     </li>
                     <li>
                         <span className='point'></span>
-                        <span className='titre-competence'>Utilisation de l’outil de : Figma</span>
+                        <span className='titre-competence'>Utilisation de Figma et canva</span>
                         <span className='detail-competence'></span>
                     </li>
                     
