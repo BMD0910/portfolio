@@ -32,7 +32,7 @@ const Presentation = () => {
                 </span>
                 <span className='btn-description'>
                     <span className='btn-description1' onClick={handleClick}>Curriculum vitae</span>
-                    <a className='btn-description2'href="https://wa.me/771044213" target="_blank">WhatsApp</a>
+                    <a className='btn-description2'href="https://wa.me/784408762" target="_blank">WhatsApp</a>
                 </span> 
                 <span className='btn-reseaux'> 
                   <span className='msg'> Follow me on : </span>
