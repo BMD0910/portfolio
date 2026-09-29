@@ -1,16 +1,17 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfolio React/Vite. Les projets sont définis dans `src/data/portfolio.js`; toute modification de contenu doit être faite dans le tableau `projects` de ce fichier.
 
-Currently, two official plugins are available:
+## Modifier les projets
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Chaque entrée du tableau contient le nom, le slug, l’image, les descriptions, les technologies et la couleur du projet. Ajoutez ou modifiez une entrée en conservant ces propriétés, puis vérifiez le résultat avec `npm run build`.
 
-## React Compiler
+Les changements sont publiés avec le code : poussez le commit sur GitHub pour déclencher le déploiement Vercel. Il n’y a plus de panneau `/admin`, de stockage navigateur utilisé par l’application, ni de configuration Supabase à renseigner.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Commandes
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```sh
+npm install
+npm run dev
+npm run build
+```
