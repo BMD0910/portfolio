@@ -1,0 +1,6 @@
+import { Brain, Lightbulb, Rocket, UsersRound } from 'lucide-react'
+import profileImage from '../../assets/profil.png'
+
+export function About() {
+  return <section className="about section-frame" id="a-propos"><div className="about-media"><div className="portrait-shape" /><img className="about-portrait" src={profileImage} alt="Portrait de Baye Mor Diouf" /></div><div className="about-copy"><span className="section-kicker">À propos de moi</span><h2>Développeur passionné<br />et toujours <span>en apprentissage</span></h2><p>Je suis un développeur full-stack et mobile, spécialisé dans la création d'applications web et mobiles. J'aime relever de nouveaux défis, apprendre de nouvelles technologies et construire des solutions utiles qui ont un impact réel.</p><div className="pill-list"><span><Lightbulb size={13} /> Curiosité</span><span><Rocket size={13} /> Rigoureux</span><span><UsersRound size={13} /> Esprit d'équipe</span><span><Brain size={13} /> Résolution de problèmes</span></div></div></section>
+}

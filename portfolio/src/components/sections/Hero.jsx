@@ -1,0 +1,6 @@
+import { ArrowRight, Mail, UserRound } from 'lucide-react'
+import heroImage from '../../assets/img_hero.png'
+
+export function Hero() {
+  return <section className="hero section-frame" id="accueil"><div className="hero-content"><span className="eyebrow"><i /> Développeur Full-Stack & Mobile</span><h1>Bonjour, je suis<br /><strong>Baye Mor <em>Diouf</em></strong></h1><p>Passionné par le développement web et mobile, je conçois des solutions modernes, performantes et adaptées aux besoins réels.</p><div className="hero-actions"><a className="primary-button" href="#projets"><UserRound size={15} /> Voir mes projets <ArrowRight size={15} /></a><a className="secondary-button" href="#contact"><Mail size={15} /> Me contacter</a></div><div className="hero-socials"><a href="#contact" aria-label="GitHub">GH</a><a href="#contact" aria-label="LinkedIn">in</a><a href="#contact" aria-label="X">X</a><a href="#contact" aria-label="Email"><Mail size={16} /></a></div></div><div className="hero-media"><img className="hero-image" src={heroImage} alt="Baye Mor Diouf en train de coder" /></div><div className="hero-code-note">&lt; Code<br /><b>Build.</b><br />Improve /&gt;</div></section>
+}
